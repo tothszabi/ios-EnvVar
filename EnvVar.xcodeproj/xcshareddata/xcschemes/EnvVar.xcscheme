@@ -45,7 +45,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "131FAE162AD3FB3700E09884"
+               BlueprintIdentifier = "13EFEEAA2AD6D4EB0083F07A"
                BuildableName = "EnvVarUITests.xctest"
                BlueprintName = "EnvVarUITests"
                ReferencedContainer = "container:EnvVar.xcodeproj">

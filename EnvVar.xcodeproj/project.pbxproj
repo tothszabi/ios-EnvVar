@@ -12,10 +12,19 @@
 		131FAE052AD3FB3700E09884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131FAE042AD3FB3700E09884 /* Assets.xcassets */; };
 		131FAE082AD3FB3700E09884 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131FAE072AD3FB3700E09884 /* Preview Assets.xcassets */; };
 		131FAE122AD3FB3700E09884 /* EnvVarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FAE112AD3FB3700E09884 /* EnvVarTests.swift */; };
+		13EFEEA62AD6D2E60083F07A /* EnvVarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EFEEA52AD6D2E60083F07A /* EnvVarProvider.swift */; };
+		13EFEEAE2AD6D4EB0083F07A /* EnvVarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EFEEAD2AD6D4EB0083F07A /* EnvVarUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		131FAE0E2AD3FB3700E09884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131FADF52AD3FB3600E09884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131FADFC2AD3FB3600E09884;
+			remoteInfo = EnvVar;
+		};
+		13EFEEB12AD6D4EB0083F07A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 131FADF52AD3FB3600E09884 /* Project object */;
 			proxyType = 1;
@@ -33,6 +42,9 @@
 		131FAE0D2AD3FB3700E09884 /* EnvVarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvVarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		131FAE112AD3FB3700E09884 /* EnvVarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvVarTests.swift; sourceTree = "<group>"; };
 		13EFEEA42AD531A90083F07A /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		13EFEEA52AD6D2E60083F07A /* EnvVarProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvVarProvider.swift; sourceTree = "<group>"; };
+		13EFEEAB2AD6D4EB0083F07A /* EnvVarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvVarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EFEEAD2AD6D4EB0083F07A /* EnvVarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvVarUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		13EFEEA82AD6D4EB0083F07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -58,6 +77,7 @@
 			children = (
 				131FADFF2AD3FB3600E09884 /* EnvVar */,
 				131FAE102AD3FB3700E09884 /* EnvVarTests */,
+				13EFEEAC2AD6D4EB0083F07A /* EnvVarUITests */,
 				131FADFE2AD3FB3600E09884 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +87,7 @@
 			children = (
 				131FADFD2AD3FB3600E09884 /* EnvVar.app */,
 				131FAE0D2AD3FB3700E09884 /* EnvVarTests.xctest */,
+				13EFEEAB2AD6D4EB0083F07A /* EnvVarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +97,7 @@
 			children = (
 				131FAE002AD3FB3600E09884 /* EnvVarApp.swift */,
 				131FAE022AD3FB3600E09884 /* ContentView.swift */,
+				13EFEEA52AD6D2E60083F07A /* EnvVarProvider.swift */,
 				13EFEEA42AD531A90083F07A /* Config.xcconfig */,
 				131FAE042AD3FB3700E09884 /* Assets.xcassets */,
 				131FAE062AD3FB3700E09884 /* Preview Content */,
@@ -97,6 +119,14 @@
 				131FAE112AD3FB3700E09884 /* EnvVarTests.swift */,
 			);
 			path = EnvVarTests;
+			sourceTree = "<group>";
+		};
+		13EFEEAC2AD6D4EB0083F07A /* EnvVarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13EFEEAD2AD6D4EB0083F07A /* EnvVarUITests.swift */,
+			);
+			path = EnvVarUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +167,24 @@
 			productReference = 131FAE0D2AD3FB3700E09884 /* EnvVarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		13EFEEAA2AD6D4EB0083F07A /* EnvVarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EFEEB32AD6D4EB0083F07A /* Build configuration list for PBXNativeTarget "EnvVarUITests" */;
+			buildPhases = (
+				13EFEEA72AD6D4EB0083F07A /* Sources */,
+				13EFEEA82AD6D4EB0083F07A /* Frameworks */,
+				13EFEEA92AD6D4EB0083F07A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13EFEEB22AD6D4EB0083F07A /* PBXTargetDependency */,
+			);
+			name = EnvVarUITests;
+			productName = EnvVarUITests;
+			productReference = 13EFEEAB2AD6D4EB0083F07A /* EnvVarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +199,10 @@
 						CreatedOnToolsVersion = 15.0;
 					};
 					131FAE0C2AD3FB3700E09884 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 131FADFC2AD3FB3600E09884;
+					};
+					13EFEEAA2AD6D4EB0083F07A = {
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 131FADFC2AD3FB3600E09884;
 					};
@@ -171,6 +223,7 @@
 			targets = (
 				131FADFC2AD3FB3600E09884 /* EnvVar */,
 				131FAE0C2AD3FB3700E09884 /* EnvVarTests */,
+				13EFEEAA2AD6D4EB0083F07A /* EnvVarUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,6 +245,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		13EFEEA92AD6D4EB0083F07A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -201,6 +261,7 @@
 			files = (
 				131FAE032AD3FB3600E09884 /* ContentView.swift in Sources */,
 				131FAE012AD3FB3600E09884 /* EnvVarApp.swift in Sources */,
+				13EFEEA62AD6D2E60083F07A /* EnvVarProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +273,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		13EFEEA72AD6D4EB0083F07A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EFEEAE2AD6D4EB0083F07A /* EnvVarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -219,6 +288,11 @@
 			isa = PBXTargetDependency;
 			target = 131FADFC2AD3FB3600E09884 /* EnvVar */;
 			targetProxy = 131FAE0E2AD3FB3700E09884 /* PBXContainerItemProxy */;
+		};
+		13EFEEB22AD6D4EB0083F07A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 131FADFC2AD3FB3600E09884 /* EnvVar */;
+			targetProxy = 13EFEEB12AD6D4EB0083F07A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -442,6 +516,40 @@
 			};
 			name = Release;
 		};
+		13EFEEB42AD6D4EB0083F07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.bitrise.EnvVarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnvVar;
+			};
+			name = Debug;
+		};
+		13EFEEB52AD6D4EB0083F07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.bitrise.EnvVarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnvVar;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -468,6 +576,15 @@
 			buildConfigurations = (
 				131FAE252AD3FB3700E09884 /* Debug */,
 				131FAE262AD3FB3700E09884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13EFEEB32AD6D4EB0083F07A /* Build configuration list for PBXNativeTarget "EnvVarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EFEEB42AD6D4EB0083F07A /* Debug */,
+				13EFEEB52AD6D4EB0083F07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
