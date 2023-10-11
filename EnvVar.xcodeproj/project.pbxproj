@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		130DD9872AD6ED6500273C5E /* EnvVar.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EnvVar.xctestplan; sourceTree = "<group>"; };
 		131FADFD2AD3FB3600E09884 /* EnvVar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnvVar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		131FAE002AD3FB3600E09884 /* EnvVarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvVarApp.swift; sourceTree = "<group>"; };
 		131FAE022AD3FB3600E09884 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 		131FADF42AD3FB3600E09884 = {
 			isa = PBXGroup;
 			children = (
+				130DD9872AD6ED6500273C5E /* EnvVar.xctestplan */,
 				131FADFF2AD3FB3600E09884 /* EnvVar */,
 				131FAE102AD3FB3700E09884 /* EnvVarTests */,
 				13EFEEAC2AD6D4EB0083F07A /* EnvVarUITests */,

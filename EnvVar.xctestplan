@@ -1,0 +1,49 @@
+{
+  "configurations" : [
+    {
+      "id" : "FDDB3F9A-E77B-484F-9AA4-A9AC8A01E2C3",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "environmentVariableEntries" : [
+      {
+        "key" : "EXTERNAL_ENV",
+        "value" : "${EXTERNAL_ENV}"
+      },
+      {
+        "key" : "DEFAULT_ENV",
+        "value" : "defult value"
+      },
+      {
+        "key" : "EXPANDED_ENV",
+        "value" : "expanded with ${CONFIG_ENV}"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:EnvVar.xcodeproj",
+      "identifier" : "131FADFC2AD3FB3600E09884",
+      "name" : "EnvVar"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:EnvVar.xcodeproj",
+        "identifier" : "131FAE0C2AD3FB3700E09884",
+        "name" : "EnvVarTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:EnvVar.xcodeproj",
+        "identifier" : "13EFEEAA2AD6D4EB0083F07A",
+        "name" : "EnvVarUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
