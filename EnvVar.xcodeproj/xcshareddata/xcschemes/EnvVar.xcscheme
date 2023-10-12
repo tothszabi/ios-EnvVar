@@ -78,11 +78,6 @@
       </BuildableProductRunnable>
       <EnvironmentVariables>
          <EnvironmentVariable
-            key = "EXTERNAL_ENV"
-            value = "${EXTERNAL_ENV}"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-         <EnvironmentVariable
             key = "DEFAULT_ENV"
             value = "defult value"
             isEnabled = "YES">

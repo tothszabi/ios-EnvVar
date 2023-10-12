@@ -42,7 +42,6 @@
 		131FAE072AD3FB3700E09884 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		131FAE0D2AD3FB3700E09884 /* EnvVarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvVarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		131FAE112AD3FB3700E09884 /* EnvVarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvVarTests.swift; sourceTree = "<group>"; };
-		13EFEEA42AD531A90083F07A /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		13EFEEA52AD6D2E60083F07A /* EnvVarProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvVarProvider.swift; sourceTree = "<group>"; };
 		13EFEEAB2AD6D4EB0083F07A /* EnvVarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvVarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13EFEEAD2AD6D4EB0083F07A /* EnvVarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvVarUITests.swift; sourceTree = "<group>"; };
@@ -100,7 +99,6 @@
 				131FAE002AD3FB3600E09884 /* EnvVarApp.swift */,
 				131FAE022AD3FB3600E09884 /* ContentView.swift */,
 				13EFEEA52AD6D2E60083F07A /* EnvVarProvider.swift */,
-				13EFEEA42AD531A90083F07A /* Config.xcconfig */,
 				131FAE042AD3FB3700E09884 /* Assets.xcassets */,
 				131FAE062AD3FB3700E09884 /* Preview Content */,
 			);
