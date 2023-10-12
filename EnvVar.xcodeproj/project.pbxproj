@@ -422,6 +422,7 @@
 		};
 		131FAE222AD3FB3700E09884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EFEEA42AD531A90083F07A /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +452,7 @@
 		};
 		131FAE232AD3FB3700E09884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EFEEA42AD531A90083F07A /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,6 +482,7 @@
 		};
 		131FAE252AD3FB3700E09884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EFEEA42AD531A90083F07A /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +503,7 @@
 		};
 		131FAE262AD3FB3700E09884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EFEEA42AD531A90083F07A /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +524,7 @@
 		};
 		13EFEEB42AD6D4EB0083F07A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EFEEA42AD531A90083F07A /* Config.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -537,6 +542,7 @@
 		};
 		13EFEEB52AD6D4EB0083F07A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EFEEA42AD531A90083F07A /* Config.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
