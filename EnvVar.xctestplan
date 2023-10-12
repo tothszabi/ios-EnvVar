@@ -11,6 +11,10 @@
   "defaultOptions" : {
     "environmentVariableEntries" : [
       {
+        "key" : "EXTERNAL_ENV",
+        "value" : "$(EXTERNAL_ENV)"
+      },
+      {
         "key" : "DEFAULT_ENV",
         "value" : "defult value"
       },

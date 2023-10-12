@@ -87,6 +87,11 @@
             value = "expanded with ${CONFIG_ENV}"
             isEnabled = "YES">
          </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "EXTERNAL_ENV"
+            value = "$(EXTERNAL_ENV)"
+            isEnabled = "YES">
+         </EnvironmentVariable>
       </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
