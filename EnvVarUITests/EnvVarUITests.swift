@@ -11,6 +11,9 @@ final class EnvVarUITests: XCTestCase {
 
     func testContentViewExternalEnvText() throws {
         let app = XCUIApplication()
+        
+        let externalEnvValue = ProcessInfo.processInfo.environment["EXTERNAL_ENV"] ?? ""
+        app.launchEnvironment = ["EXTERNAL_ENV": externalEnvValue]
         app.launch()
         
         let textField = app.staticTexts["externalEnvText"].firstMatch
