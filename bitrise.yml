@@ -65,7 +65,7 @@ trigger_map:
   type: pull_request
   workflow: primary
 - push_branch:
-    regex: ".*"
+    regex: "*"
   type: push
   workflow: env
 - tag:
